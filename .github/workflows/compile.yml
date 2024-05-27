@@ -5,9 +5,6 @@ on:
 jobs:
   compile:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - run: sudo apt-get update && sudo apt-get upgrade -y
       - run: sudo apt-get install -y build-essential cmark
@@ -23,6 +20,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './root'
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: compile
+    permissions:
+      pages: write
+      id-token: write
+    steps:
       - name: deploy
         id: deployment
         uses: actions/deploy-pages@v4
