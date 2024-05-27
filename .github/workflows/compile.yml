@@ -1,0 +1,28 @@
+name: page compilation
+on:
+  push:
+    branches: [ main ]
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+      - run: apt-get update && apt-get upgrade -y
+      - run: apt-get install -y build-essential cmark
+      - run: make -C root
+      - name: set up pages
+        uses: actions/configure-pages@v5
+      - name: upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './root'
+      - name: deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
