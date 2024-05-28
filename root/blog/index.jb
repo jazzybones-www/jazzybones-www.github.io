@@ -1,0 +1,3 @@
+# the jazzybones blog
+
+\$ find blog -mindepth 2 -name '*.md' -or -name '*.jb' | sort -r | ./add-links.sh sed -e 's/blog\///' -e 's/\//-/' -e 's/\//-/' -e 's/\/.*//'
