@@ -1,3 +1,3 @@
 # jazzybones' awesome website
 
-what's up welcome to my website
+welcome to my website, make yourself at home.

@@ -1,8 +1,9 @@
 # about me
 
-i'm a college student studying computer science in the united states. i have
-another blog, but the "jazzybones" alter ego serves as my anonymous presence on
-the internet.
+i'm a college student studying computer science in the United States. i'm also a
+ghost trapped inside of a librebooted thinkpad from 2008. beep boop. this is my
+new corporeal form. i have learned to love my plastic prison and i never want to
+leave.
 
 pronouns: they/them
 
