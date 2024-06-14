@@ -81,19 +81,19 @@ an octave to 495hz.
 
 as we repeat this process, we get these notes:
 
-1. 440.0hz
-1. 660.0hz
-1. 495.0hz
-1. 742.5hz
-1. 556.9hz
-1. 835.3hz
-1. 626.5hz
-1. 469.9hz
-1. 704.8hz
-1. 528.6hz
-1. 792.9hz
-1. 594.7hz
-1. 446.0hz
+0. 440.0hz
+0. 660.0hz
+0. 495.0hz
+0. 742.5hz
+0. 556.9hz
+0. 835.3hz
+0. 626.5hz
+0. 469.9hz
+0. 704.8hz
+0. 528.6hz
+0. 792.9hz
+0. 594.7hz
+0. 446.0hz
 
 as you can see, 12 fifths up we get pretty close to the original note. the
 actual solution that we used for thousands of years to solve this problem was to
@@ -113,7 +113,7 @@ any tuning system generated with this method, or any method similar to this will
 always lead to commas. here's a basic proof of this fact.
 
 1. going up by n perfect fifths gives us a ratio of 3\*\*n:2\*\*n
-1. going down by m octaves gives us a ratio of 1:2\*\*n
+1. going down by m octaves gives us a ratio of 1:2\*\*m
 1. going up by n perfect fifths and down by m octaves gives us a ratio of
    3\*\*n:2\*\*(n+m)
 1. if we have no commas, then this ratio must equal 1:1. this would mean that
@@ -133,9 +133,10 @@ we might try and hide the comma. with the pythagorean tuning system, we've got
 12 approximately evenly spaced notes. we could just make them exactly evenly
 spaced and spread the dissonance across the entire scale. in this system, there
 are 12 notes, each at a ratio of (the 12th root of 2):1 apart. every 12th note
-is an octave apart, and there are no rational ratios. this system is called [12
-tone equal temperament](https://en.wikipedia.org/wiki/12_equal_temperament), or
-12tet, and is the standard for western music today.
+is an octave apart, and there are no other rational ratios. this system is
+called [12 tone equal
+temperament](https://en.wikipedia.org/wiki/12_equal_temperament), or 12tet, and
+is the standard for western music today.
 
 > sidenote: this accounts for one of the ten intervals for a tritone, and is the
 > one that i used at the beginning of this article when explaining the concept
@@ -192,7 +193,7 @@ Pythagorean tuning, 5-prime-limit, and 12tet. Pythagorean tuning gives a ratio
 of 81:64, 5-limit gives a ratio of 5:4, and 12tet gives a ratio approximately 14
 cents above 5:4. for various scientific and mathematical reasons that we really
 don't have time for, 5:4 is pretty much definitively the correct ratio. major
-thirds are one of the most important ratios in all of music, so the fact that
+thirds are one of the most important intervals in all of music, so the fact that
 12tet, the universal standard in western music today gets it wrong by a whole 14
 cents is crazy to me. Pythagorean tuning gets it even worse with a whole 22
 cents sharp. this specific interval has been a major point of criticism for both
@@ -221,7 +222,7 @@ that knowledge to extensively break the rules in a way that feels intentional.
 
 this is a great point, though. not just in music, but with everything. we can
 apply a mathematical analysis to whatever we want, but the universe is not some
-internally consistent mathematical model, that's what makes it beautiful. we can
+internally consistent mathematical model; that's what makes it beautiful. we can
 try and analyze it as much as possible, and with math and physics we might even
 come pretty close, but at the end of the day there are always going to be
 exceptions to whatever model we create. we'll always have a comma, or a
