@@ -44,7 +44,7 @@ called an octave. we can use other ratios too, a ratio of 3:2 is called a
 perfect fifth, and looks like this:
 
 ![the air pressure reading of two sine waves of the same magnitude a perfect
-fifth](octave-together.png)
+fifth](fifth.png)
 
 the graphs don't always look this clean. for a particularly awful example,
 here's sqrt(2):1.
