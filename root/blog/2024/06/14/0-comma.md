@@ -50,7 +50,7 @@ the graphs don't always look this clean. for a particularly awful example,
 here's sqrt(2):1.
 
 ![the air pressure reading of two sine waves of the same magnitude a tritone
-(12-TET) apart](12tet-tritone)
+(12-TET) apart](12tet-tritone.png)
 
 there's sort of a pattern there, but none of that clean, exact periodicity that
 we've seen in all of the other intervals. as a general rule, simpler ratios
