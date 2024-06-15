@@ -5,4 +5,5 @@ if [ $# -lt 2 ] ; then
 	exit 1
 fi
 
-cat head.html <(cmark -t html "$1") tail.html > "$2"
+TITLE="$(grep '^#' "$1" | head -n1 | sed 's/^# *//')"
+cat head.html <(cmark --unsafe -t html "$1") tail.html | sed "s/<?title?>/$TITLE/g" > "$2"
