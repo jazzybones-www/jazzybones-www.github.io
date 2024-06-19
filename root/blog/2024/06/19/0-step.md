@@ -4,8 +4,8 @@
 i did marching band in high school. i really liked it. to me, marching band
 mixes athleticism, teamwork, and artistic expression a really fulfilling way. if
 you haven't already, you should absolutely watch Carolina Crown's 2013 show
-E=mc^2. i've never done DCI (the highest level of marching band in the US), but
-i've always really wanted to.
+[E=mc^2](https://www.youtube.com/watch?v=q6MJSfjXUgQ). i've never done DCI (the
+highest level of marching band in the US), but i've always really wanted to.
 
 > just for reference, a football field looks like this
 >
