@@ -7,9 +7,7 @@ favicon:
 
 <div style="width:26px;height:26px;border:3px solid
 #0f0;background:#000;font:20px
-monospace;text-align:center;line-height:26px;font-weight:bold;">
-JB
-</div>
+monospace;text-align:center;line-height:26px;font-weight:bold;">JB</div>
 
 johnvertisement
 
@@ -452,6 +450,14 @@ style='position:absolute;width:100%;left:0%;top:50%;transform:translate(0%,-50%)
 <div style='top:98.81%;width:1%;height:1.19%;left:97%;position: absolute;border-left:1px solid #0f0'></div>
 <div style='top:98.81%;width:1%;height:1.19%;left:98%;position: absolute;border-left:1px solid #0f0'></div>
 <div style='top:98.81%;width:1%;height:1.19%;left:99%;position: absolute;border-left:1px solid #0f0'></div>
+</div>
+
+an equilateral triangle
+
+<div style='width:100px;height:87px;position:relative'>
+<div style='border:5px solid #0f0;position:absolute;left:45px;top:0px; border-radius:50%'></div>
+<div style='border:5px solid #f00;position:absolute;left:0px; top:77px;border-radius:50%'></div>
+<div style='border:5px solid #00f;position:absolute;left:90px;top:77px;border-radius:50%'></div>
 </div>
 
 <script>

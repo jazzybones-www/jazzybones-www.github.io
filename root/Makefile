@@ -7,5 +7,5 @@ all: $(md_out)
 %.md: %.jb parse-jb.sh
 	./parse-jb.sh < $< > $@
 
-%.html: %.md head.html tail.html
+%.html: %.md head.html tail.html ./compile-html.sh
 	./compile-html.sh $< $@

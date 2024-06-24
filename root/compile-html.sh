@@ -6,4 +6,4 @@ if [ $# -lt 2 ] ; then
 fi
 
 TITLE="$(grep '^#' "$1" | head -n1 | sed 's/^# *//')"
-cat head.html <(cmark --unsafe -t html "$1") tail.html | sed "s/<?title?>/$TITLE/g" > "$2"
+cat head.html <(pandoc "$1") tail.html | sed "s/<?title?>/$TITLE/g" > "$2"
