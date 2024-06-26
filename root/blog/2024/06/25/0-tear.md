@@ -1,5 +1,7 @@
 # the jazzybones word: tear
 
+## note: this article was written on 2024-06-25, but uploaded on 2024-06-26
+
 when i say "tear", i could be referring to a torn shirt, or a tear in your eyes,
 or a "tier" list, or maybe i'm "taring" a scale. webster's online dictionary has
 a few more definitions for each of these words, including "tier", as in a person
