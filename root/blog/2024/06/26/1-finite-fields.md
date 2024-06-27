@@ -14,7 +14,7 @@ have a negative counterpart, so that gets us the negative numbers.
 
 the assumption here is that adding 1 always gets us a new number. if we wanted
 to, we could just declare that 5+1=0. this is called "modulo 6 arithmetic", or
-"mod 6 arithmetic", since 0=5=1=6. this would also imply that 1=7, 2=8, and so
+"mod 6 arithmetic", since 0=5+1=6. this would also imply that 1=7, 2=8, and so
 on. to convert a real number to a mod 6 number, we just divide that number by 6
 and take the remainder. for example, 8/6 = 1R2, so 8=2. to do modulo arithmetic,
 we can just do regular arithmetic and apply this conversion to our
