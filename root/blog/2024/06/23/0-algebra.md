@@ -1,5 +1,7 @@
 # jb crypto part 1: hardcore algebra
 
+[read part 2 here](/blog/2024/06/26/1-finite-fields.html)
+
 this is part one of a series on math and cryptography. this article is going to
 be about the foundations of algebra. by the way, this article has a lot of very
 long footnotes and is quite nonlinear. feel free to read this out of order if
