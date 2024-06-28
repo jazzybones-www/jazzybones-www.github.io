@@ -1,6 +1,8 @@
 # jb crypto part 2: finite fields
 
-[read part 1 here](/blog/2024/06/23/0-algebra.md)
+[read part 1 here](/blog/2024/06/23/0-algebra.html)
+
+[read part 3 here](/blog/2024/06/27/0-discrete-log.html)
 
 in the last installment of jb crypto i talked about group theory and explained
 the exact mathematical definition of the integers. i also hinted at the fact
