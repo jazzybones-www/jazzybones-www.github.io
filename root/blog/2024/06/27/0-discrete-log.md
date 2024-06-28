@@ -9,7 +9,7 @@ all modern cryptography relies on the idea that some problems are easy to do in
 one direction, but hard to do in the other direction. for example, if i have a
 calculator it's pretty easy to multiply 3\*37. if i want to figure out the
 factors of 91, however, i have to manually check every number, which takes a
-very long time[^p-vs-np].
+\very long time[^p-vs-np].
 
 when we're doing cryptography, we want to be able to encrypt quickly but force
 attackers to decrypt slowly. that makes these sorts of problems (called NP
@@ -26,7 +26,7 @@ every possible value of x until you find one that works[^x-equals-37].
 
 i can easily calculate some arbitrary exponent very quickly, though. if i want
 to calculate 3^1000000, i could calculate 3\*3\*3\*3\*... (1 million times), or
-i could calculate 3^500000\*3^500000. i've just gone from 1000000 really small
+i could calculate 3\^500000\*3\^500000. i've just gone from 1000000 really small
 multiplications to 500000 small multiplications and one really big
 multiplication at the end. i could do this again, turning those 500000
 multiplications into 250000, and so on until i get something small enough to do
@@ -69,9 +69,9 @@ create the final cyan+yellow+orange mixture.
 this algorithm is usually done with exponents. we have three public numbers: p,
 n, and m, where the shared color is p^n mod m. alice and bob choose two numbers
 a and b, and calculate p^a and p^b respectively (mod m). alice calculates
-p^n\*p^a = p^(n+a), and sends that to bob. bob calculates p^n\*p^b = p^(n+b),
-and sends that to alice. alice calculates p^(n+b)\*p^a = p^(n+a+b), and bob
-calculates p^(n+a)\*p^b = p^(n+a+b). now, alice and bob have calculated the same
+p\^n\*p^a = p^(n+a), and sends that to bob. bob calculates p\^n\*p^b = p^(n+b),
+and sends that to alice. alice calculates p\^(n+b)\*p^a = p^(n+a+b), and bob
+calculates p\^(n+a)\*p^b = p^(n+a+b). now, alice and bob have calculated the same
 number, and the only way for eve to figure out what that number is is to solve
 the discrete log problem to figure out either a or b.
 
