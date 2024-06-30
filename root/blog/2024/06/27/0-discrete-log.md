@@ -2,6 +2,8 @@
 
 [read part 2 here](/blog/2024/06/26/1-finite-fields.html)
 
+[read part 4 here](/blog/2024/06/29/0-entropy.html)
+
 we're three parts into a series called "jb crypto" and we're finally moving on
 from math to actual cryptography.
 
