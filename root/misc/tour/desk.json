@@ -1,0 +1,86 @@
+[
+  {
+    "class": "webcam",
+    "text": "my webcam. i usually keep it unplugged out of paranoia.",
+    "location": [
+      [1, 59, 4, 68]
+    ]
+  },
+  {
+    "class": "left_monitor",
+    "text": "my left monitor, currently displaying this ascii art",
+    "location": [
+      [6, 6, 18, 64]
+    ]
+  },
+  {
+    "class": "right_monitor",
+    "text": "my right monitor, currently displaying the home page of my website",
+    "location": [
+      [6, 70, 18, 128]
+    ]
+  },
+  {
+    "class": "books",
+    "text": "various books about programming propping up my monitors",
+    "location": [
+      [23, 73, 34, 77],
+      [29, 79, 34, 119],
+      [23, 120, 31, 122],
+      [23, 58, 30, 60],
+      [28, 11, 31, 59],
+      [32, 11, 34, 57]
+    ]
+  },
+  {
+    "class": "laptop",
+    "text": "my laptop on a docking station. several cables connect it to various peripherals",
+    "location": [
+      [34, 43, 39, 82]
+    ]
+  },
+  {
+    "class": "popit",
+    "text": "a pop-it fidget toy",
+    "location": [
+      [34, 1, 39, 8]
+    ]
+  },
+  {
+    "class": "ssd",
+    "text": "a 256gb ssd with some linux distro on it",
+    "location": [
+      [37, 12, 39, 23]
+    ]
+  },
+  {
+    "class": "coins",
+    "text": "$0.38 in coins",
+    "location": [
+      [37, 97, 38, 100]
+    ]
+  },
+  {
+    "class": "cube",
+    "text": "a rubik's cube",
+    "location": [
+      [35, 119, 39, 130]
+    ]
+  },
+  {
+    "class": "left_arrow",
+    "text": "get back to the bed",
+    "location": [
+      [24, 3, 24, 5]
+    ],
+    "href": "bed.html"
+  },
+  {
+    "class": "right_arrow",
+    "text": "turn right",
+    "location": [
+      [20, 144, 20, 146]
+    ],
+    "href": "lookright.html"
+  }
+]

@@ -1,0 +1,3 @@
+# exploring, are you?
+
+\$ ./misc/tour/make-art.py lookright.txt lookright.json

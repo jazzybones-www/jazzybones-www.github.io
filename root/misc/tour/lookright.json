@@ -1,0 +1,95 @@
+[
+  {
+    "class": "bathroom_door",
+    "text": "my bathroom door",
+    "location": [
+      [9, 20, 35, 40]
+    ]
+  },
+  {
+    "class": "bookshelf",
+    "text": "a bookshelf filled with many objects that aren't books",
+    "location": [
+      [10, 55, 36, 79],
+      [32, 80, 35, 81],
+      [11, 80, 28, 81]
+    ]
+  },
+  {
+    "class": "knitting_supplies",
+    "text": "some knitting supplies in a box on the ground",
+    "location": [
+      [32, 45, 36, 54],
+      [32, 80, 35, 81],
+      [34, 42, 36, 44]
+    ]
+  },
+  {
+    "class": "closet_door",
+    "text": "my closet door",
+    "location": [
+      [13, 114, 32, 129]
+    ]
+  },
+  {
+    "class": "desk",
+    "text": "my desk, covered with books, office supplies, and stuffed animals",
+    "location": [
+      [29, 80, 31, 81],
+      [24, 82, 31, 88],
+      [25, 89, 39, 92],
+      [23, 93, 39, 99],
+      [22, 98, 22, 98],
+      [25, 98, 39, 99],
+      [29, 100, 39, 103],
+      [27, 104, 29, 116],
+      [30, 104, 30, 115],
+      [31, 104, 31, 114],
+      [32, 104, 38, 113]
+    ],
+    "href": "desk.html"
+  },
+  {
+    "class": "window",
+    "text": "a window (not microsoft)",
+    "location": [
+      [10, 134, 24, 144]
+    ]
+  },
+  {
+    "class": "chair",
+    "text": "a pretty comfortable chair",
+    "location": [
+      [24, 130, 24, 142],
+      [25, 129, 25, 143],
+      [26, 128, 28, 143],
+      [29, 129, 29, 141],
+      [30, 132, 30, 137],
+      [31, 130, 31, 141],
+      [32, 128, 33, 142],
+      [34, 127, 37, 139]
+    ]
+  },
+  {
+    "class": "left_arrow",
+    "text": "turn left",
+    "location": [
+      [20, 7, 20, 9]
+    ],
+    "href": "bed.html"
+  },
+  {
+    "class": "chair",
+    "text": "a pretty comfortable chair",
+    "location": [
+      [24, 130, 24, 142],
+      [25, 129, 25, 143],
+      [26, 128, 28, 143],
+      [29, 129, 29, 141],
+      [30, 132, 30, 137],
+      [31, 130, 31, 141],
+      [32, 128, 33, 142],
+      [34, 127, 37, 139]
+    ]
+  }
+]

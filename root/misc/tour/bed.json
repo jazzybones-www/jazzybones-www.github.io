@@ -1,0 +1,86 @@
+[
+  {
+    "class": "ceiling_vent",
+    "text": "a ceiling vent",
+    "location": [
+      [1, 19, 3, 27]
+    ]
+  },
+  {
+    "class": "poster",
+    "text": "a motivational programming poster",
+    "location": [
+      [5, 70, 24, 88]
+    ]
+  },
+  {
+    "class": "name_tag",
+    "text": "a name tag from an event many years ago that i put on my wall and never removed",
+    "location": [
+      [19, 61, 21, 66]
+    ]
+  },
+  {
+    "class": "outside_door",
+    "text": "the door to the outside world",
+    "location": [
+      [12, 17, 31, 37]
+    ]
+  },
+  {
+    "class": "laptop",
+    "text": "my laptop, sitting on my bed",
+    "location": [
+      [33, 15, 39, 26]
+    ]
+  },
+  {
+    "class": "drawers",
+    "text": "some drawers filled with various trinkets",
+    "location": [
+      [27, 50, 31, 75],
+      [32, 54, 33, 75]
+    ]
+  },
+  {
+    "class": "hamper",
+    "text": "a laundry hamper",
+    "location": [
+      [29, 76, 33, 81]
+    ]
+  },
+  {
+    "class": "lovely_hoop",
+    "text": "a steel hoop, approximately four feet in diameter. it's mine, you can't have it.",
+    "location": [
+      [26, 82, 32, 95]
+    ]
+  },
+  {
+    "class": "bathroom_door",
+    "text": "my bathroom door",
+    "location": [
+      [3, 103, 39, 119]
+    ]
+  },
+  {
+    "class": "light_switch",
+    "text": "a light switch. i've attached a string to it so that i can turn the lights off from my bed.",
+    "location": [
+      [18, 39, 22, 43],
+      [23, 40, 23, 42],
+      [24, 40, 26, 43],
+      [27, 40, 28, 44],
+      [29, 40, 30, 45],
+      [31, 40, 31, 46]
+    ]
+  },
+  {
+    "class": "right_arrow",
+    "text": "turn to the right",
+    "location": [
+      [20, 144, 20, 146]
+    ],
+    "href": "lookright.html"
+  }
+]

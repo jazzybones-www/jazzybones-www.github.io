@@ -1,0 +1,3 @@
+# time to lock in and make some ascii art at the desk
+
+\$ ./misc/tour/make-art.py desk.txt desk.json
