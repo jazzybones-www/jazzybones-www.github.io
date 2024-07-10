@@ -19,3 +19,5 @@ from the actual runtime.
 
 anyways i've been playing way too much bitburner so i only have a minute to
 finish this article to continue my streak. i'll continue "tomorrow".
+
+[here's the next post](/2024/07/08/0-effective-runtime.html)
