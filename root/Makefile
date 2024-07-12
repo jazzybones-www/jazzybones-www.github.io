@@ -1,5 +1,6 @@
 jb_src=$(shell find -name '*.jb')
-md_src=$(jb_src:.jb=.md) $(shell find -name '*.md')
+jb_out=$(jb_src:.jb=.md)
+md_src=$(jb_out) $(shell find -name '*.md')
 md_out=$(md_src:.md=.html)
 bb_src=$(shell find -name '*.bb')
 bb_out=$(bb_src:.bb=)
@@ -19,3 +20,4 @@ all: $(md_out) $(bb_out)
 include $(autodeps)
 
 .PHONY: all
+.INTERMEDIATE: $(jb_out)
