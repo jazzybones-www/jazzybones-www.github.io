@@ -23,4 +23,4 @@
 \$ ./blog/create-rss.sh
   </channel>
 </rss>
-\jb_dependencies: find blog -mindepth 2 -name '*.md'
+\jb_dependencies: $(shell find blog -mindepth 2 -name '*.md')

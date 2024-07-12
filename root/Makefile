@@ -7,13 +7,10 @@ autodeps=$(jb_src:=.d) $(bb_src:=.d)
 
 all: $(md_out) $(bb_out)
 
-%.md: %.jb parse-jb.sh
-	./parse-jb.sh < $< > $@
-
-%.jb.d: %.jb
+%.jb.d: %.jb ./make-build-rule.sh
 	./make-build-rule.sh $< $*.md $@
 
-%.bb.d: %.bb
+%.bb.d: %.bb ./make-build-rule.sh
 	./make-build-rule.sh $< $* $@
 
 %.html: %.md head.html tail.html ./compile-html.sh
