@@ -2,4 +2,11 @@
 
 welcome to my website, make yourself at home.
 
+status:
+\$ cat status.txt
+
+[view status history](/status.html)
+
 ![jazzybones 88x31 button](/buttons/mine.png)
+
+\jb_dependencies: status.txt
