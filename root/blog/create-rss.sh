@@ -21,10 +21,10 @@ printmonths() {
 }
 
 find -name '*.md' | sort -r | head -n 50 | while IFS= read -r md ; do
-	title="$(grep '^# ' "$md" | sed 's/^# *//')"
-	link="$(printf "%s\n" "$md" | sed 's/md$/html/' | sed 's/^\./https:\/\/jazzybones-www.github.io/')"
+	title="$(grep '^# ' "$md" | head -n1 | sed 's/^# *//')"
+	link="$(printf "%s\n" "$md" | sed 's/md$/html/' | sed 's/^\./https:\/\/jazzybones-www.github.io/blog')"
 	guid="$link"
-	pubDate="$(git log --follow --format=%ad --date rfc $md)"
+	pubDate="$(git log --follow --format=%ad --date rfc $md | tail -n1)"
 	echo "<item>"
 	echo "<title>$title</title>"
 	echo "<link>$link</link>"
