@@ -1,0 +1,5 @@
+# jazzybones status updates
+
+\$ ./status.sh
+
+\jb_dependencies: make-status.sh
