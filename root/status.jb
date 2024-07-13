@@ -2,4 +2,4 @@
 
 \$ ./status.sh
 
-\jb_dependencies: make-status.sh
+\jb_dependencies: status.sh
