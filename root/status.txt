@@ -1,2 +1,1 @@
-the floor is dirty because our dirty shoes walk on it, and our shoes are dirty
-because we use them to walk on our dirty floors.
+c(a,d,e,f,g){pipe(&g);if(fork()){return f;}close(f);close(a);for(;;){read(g,&a,4);if(!d){printf("%d\n",a);d=a;e=c(g,0);}if(a%d)write(e,&a,4);}}main(a,b){a=c(-1,0);for(b=2;;++b){write(a,&b,4);}}
