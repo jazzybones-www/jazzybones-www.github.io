@@ -1,0 +1,29 @@
+  the death of jazzybones
+
+jazzybones started as a small journal for me to vent my frustrations in. since
+then it's grown into the largest single collection of my writing in existence, a
+combined literary, technical, and artistic project.
+
+a piece of my soul has been embedded into this project. jazzybones started as a
+public website, delisted from any search engine through robots.txt. the hope was
+always that some far-off, anonymous audience would read it and finally
+understand who i truly was, even if they didn't know my name or face. the
+founding principle was that you can know who i am in real life, and you can know
+who i am as a person, but you can't know both.
+
+i feel like i've failed at that mission. as a paranoid programmer, i've done my
+best to hide my real name and ip address from as many people as possible,
+including github (the people that host this website) and protonmail (the people
+that host my email). i've still screwed up, though. one time, i accidentally
+pushed from my irl, personal github account. i then hid that activity, but
+theoretically somebody at github could find my real name.
+
+at the same time, as far as i'm aware, the anonymous audience that doesn't know
+who i am, also doesn't exist. i haven't gotten a single non-automated email in
+my inbox.
+
+for those reasons, i've decided to kill this version of jazzybones. they will be
+moving to a tor hidden service. email <jazzybones@proton.me> for the url.
+
+pgp key: /key.pgp
+pgp signature of this message: /index.txt.asc
